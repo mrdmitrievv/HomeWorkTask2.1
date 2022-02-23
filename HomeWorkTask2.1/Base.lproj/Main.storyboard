@@ -16,18 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5dR-Gs-B3u">
-                                <rect key="frame" x="15" y="54" width="384" height="808"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F0W-l5-EUY">
+                                <rect key="frame" x="15" y="59" width="384" height="388"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ikx-vv-sMp">
+                                <rect key="frame" x="15" y="459" width="384" height="388"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5dR-Gs-B3u" secondAttribute="trailing" constant="15" id="2yS-gW-oKd"/>
-                            <constraint firstItem="5dR-Gs-B3u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="3QA-qY-xMa"/>
-                            <constraint firstItem="5dR-Gs-B3u" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="fmp-DR-12a"/>
-                            <constraint firstItem="5dR-Gs-B3u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="loQ-ZI-4A7"/>
+                            <constraint firstItem="Ikx-vv-sMp" firstAttribute="height" secondItem="F0W-l5-EUY" secondAttribute="height" id="6f0-Lw-ZGN"/>
+                            <constraint firstItem="Ikx-vv-sMp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="JyX-qh-wI6"/>
+                            <constraint firstItem="F0W-l5-EUY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="Ll5-R7-cst"/>
+                            <constraint firstItem="Ikx-vv-sMp" firstAttribute="top" secondItem="F0W-l5-EUY" secondAttribute="bottom" constant="12" id="VGu-UR-BrA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ikx-vv-sMp" secondAttribute="bottom" constant="15" id="eLy-QV-nAp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F0W-l5-EUY" secondAttribute="trailing" constant="15" id="jnm-Lr-BuL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ikx-vv-sMp" secondAttribute="trailing" constant="15" id="mkr-rr-GkH"/>
+                            <constraint firstItem="F0W-l5-EUY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="nVZ-ef-fMh"/>
                         </constraints>
                     </view>
                 </viewController>
